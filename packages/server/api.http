@@ -1,0 +1,34 @@
+### Create event
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": 123,
+  "details": "An event to passionate development people",
+  "maximumAttendees": 1
+}
+
+### Register attendee to event
+
+POST http://localhost:3333/events/5b92b613-dc87-487e-843a-a2915353b5a6/attendees
+Content-Type: application/json
+
+{
+  "name": "Moésio Marcelino",
+  "email": "moesiomarcelino2@gmail.com"
+}
+
+### Get event data
+
+GET http://localhost:3333/events/104f33d2-942c-44d0-a9da-59cc7ed2a071
+Content-Type: application/json
+
+### Get attendee data
+
+GET http://localhost:3333/attendees/1/profile
+
+### Get all checkins from user
+GET http://localhost:3333/attendees/2/check-in
+
+### List all attendees from an event
+GET http://localhost:3333/events/5b92b613-dc87-487e-843a-a2915353b5a6/attendees?name=diego

@@ -1,0 +1,15 @@
+{
+  "name": "pass-in",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "version-packages": "changeset version"
+  },
+  "devDependencies": {
+    "turbo": "^1.5.5"
+  }
+}
