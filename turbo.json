@@ -4,6 +4,9 @@
     "dev": {
       "cache": false
     },
+    "preview": {
+      "cache": true
+    },
     "build": {
       "outputs": ["dist/**", "storybook-static/**"],
       "dependsOn": ["^build"]

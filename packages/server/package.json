@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch --env-file .env src/server.ts",
     "start": "node dist/server.mjs",
-    "build": "tsup src --format esm",
+    "build:server": "tsup src --format esm",
     "db:studio": "npx prisma studio",
     "db:migrate": "npx prisma migrate dev"
   },
