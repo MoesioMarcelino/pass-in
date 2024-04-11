@@ -1,16 +1,14 @@
-<div style="display: flex; flex-direction: column; align-items: center; gap: 32px">
-<img src="https://user-images.githubusercontent.com/37598129/227354308-986c5819-ca42-4216-b948-41c5986be321.png" />
-
-![Gravação de tela de 23-03-2023 17_09_32](https://user-images.githubusercontent.com/37598129/227348133-9637def4-e94d-4a19-9708-31e9ff94c739.gif)
-
-</div>
-
 <div style="display: flex; align-items: center; justify-content: center; gap:8px">
-<img src="./public/favicon.svg" alt="Pass.in icon" />
-<h1 align="center" style="margin-top: 20px">Pass.in</h1>
-</div>
 
+<img src="./public/favicon.svg" alt="Pass.in icon"  />
+<h1 align="center" style="margin-top: 20px">Pass.in web</h1>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 32px">
 <p align="center">Project developed based on Vite features within React + Tailwind and integrated with Node.JS</p>
+
+[pass-in-preview.webm](https://github.com/MoesioMarcelino/pass-in/assets/37598129/d4e3b9a9-d6e1-4ed2-b341-6fe2c1e53c58)
+
+</div>
 
 <h4 align="center"> 
 	Status: ✅️ Done
@@ -18,13 +16,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/88329e22-a748-4ae5-b9c4-7e0de13f6d77/deploy-status)](https://app.netlify.com/sites/astonishing-lamington-649bc8/deploys)
 
-### Features
-
-- [x] Events list
-- [x] Attendess list
-- [x] Integration with Node.js backend
-
-### Pré-requisitos
+### Requirements
 
 Before you start, it's necessary to have the tolls in your machine listed bellow:
 
@@ -33,22 +25,22 @@ Before you start, it's necessary to have the tolls in your machine listed bellow
 - [VSCode](https://code.visualstudio.com/) (it's totally optional)
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/MoesioMarcelino/pass-in
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project directory in your terminal/CMD
 $ cd pass-in
 
-# Instale as dependências
+# Install the dependencies
 $ npm install // ou yarn
 
-# Execute o projeto
+# Run the project
 $ npm run dev // ou yarn dev
 ```
 
 ### 🛠 Technologies
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The tools listed below were used to build this project:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
